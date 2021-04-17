@@ -1,0 +1,53 @@
+h1{
+    color: wheat;
+    font-style:italic;
+    display: flex;
+    justify-content: center;
+    margin-left:350px ;
+}
+.header{
+    background-color: black;
+    font-size: 10px;
+}
+
+.menu{
+    display:flex;
+    justify-content:space-between
+}
+  .grid{
+      display:flex;
+      flex-wrap:wrap;
+
+  }
+  .bodyImg{
+      background-color: black;
+      text-align: center;
+  }
+.bodyImg p,h3{
+    color:wheat;
+}
+.item{
+    background-color: lightblue;
+    border: solid   ;
+    
+}
+.item li{
+    position: relative;
+    left: -6%;
+}
+.item h2{
+    position: relative;
+    left: 20%;
+}
+.item p{
+    position: relative;
+    left:15%
+}
+.item img{
+    position: relative;
+    left: 10%;
+}
+.item:hover img{
+    opacity: 0.5;
+}
+
